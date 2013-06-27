@@ -25,6 +25,7 @@ function handleText(textNode) {
   var v = textNode.nodeValue;
 
   v = v.replace(/\bGhandi\b/g, "Gandhi");
+  v = v.replace(/\bghandi\b/g, "Gandhi");
 
   textNode.nodeValue = v;
 }
